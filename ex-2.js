@@ -7,6 +7,7 @@ const product = {
   photo: null,
 };
 let socialMediaShare = "facebookShare";
+
 // Start code here
 
 product.ratings = 4.5;
@@ -18,5 +19,6 @@ product.price = 6000;
 delete product.ratings;
 
 product[socialMediaShare] = 4;
+
 
 console.log(product);
