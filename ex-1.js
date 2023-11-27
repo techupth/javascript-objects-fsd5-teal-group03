@@ -1,6 +1,8 @@
 // Exercise #1: Food Order
 
-let foodOrder = {
+
+const foodOrder = {
+
   orderNumber: "A0234",
   address: "Bangkok",
   paymentType: "Cash",
@@ -10,4 +12,5 @@ let foodOrder = {
 
 foodOrder.totalPrice = 5000;
 foodOrder.paymentType = "Credit Card";
+
 console.log(foodOrder);
